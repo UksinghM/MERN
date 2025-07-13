@@ -1,0 +1,132 @@
+* {
+    margin: 0ch;
+    padding: 0;
+    font-family: 'poppins';
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: #151413;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-bottom: 1px solid rgb(50, 48, 47);
+}
+.myntra_home{
+    height: 45px;
+}
+.myntra_class {
+
+    height: 45px;
+}
+
+.logo_container {
+    margin-left: 3%;
+}
+
+.action_bar {
+    margin-right: 4%;
+}
+
+.nav_bar {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+    
+
+}
+
+.nav_bar a {
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: rgb(18, 5, 5);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 30px 0;
+    
+}
+.nav_bar a:hover{
+    border-bottom: 5px solid #f54e77;
+}
+
+.nav_bar a sup {
+    color: #ff3f6c;
+    font-size: 10px;
+}
+
+.seach_bar {
+    height: 40px;
+    min-width: 400px;
+    display: flex;
+    display: 30%;
+    align-items: center;
+
+}
+
+.seach_icon {
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: #f5f5f6;
+    color: #282c3f;
+    font-weight: 300;
+    border-radius: 3px 0 0 3px;
+
+}
+
+.seach_input {
+    background-color: #ff3f6c;
+    color: chartreuse;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+
+}
+
+.action_bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navigation_container{
+     display: flex;
+    background-color: #866738;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    color: black;
+
+}
+.action_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner_container{
+    margin: 40px 0;
+}
+.banner_image{
+    width: 7cm;
+    justify-content: center;
+    align-items: center;
+
+}
+.category_heading{
+    text-transform: uppercase;
+    color: #282c3f;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+.category_items{
+    
+}

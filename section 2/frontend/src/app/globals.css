@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* Make all images responsive by default */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Make .container responsive and add horizontal padding */
+.container {
+  width: 100%;
+  max-width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-sizing: border-box;
+}
+
+/* Ensure input and select fields are readable and touch-friendly */
+input, select, button {
+  font-size: 1rem;
+  min-height: 2.5rem;
+}
+
+/* Optional: Make headings more readable on small screens */
+h1, h2, h3 {
+  word-break: break-word;
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Login Page</title>
+  </head>
+  <body class="flex justify-center items-center h-screen bg-[url('https://m.media-amazon.com/images/I/81rEhhwbubL.jpg')] bg-cover bg-no-repeat bg-center">
+    <div class="backdrop-blur-sm bg-white/30 border-2 border-white/20 shadow-2xl rounded-lg p-8 w-11/12 sm:w-1/3">
+      <h3 class="text-3xl font-bold text-center text-white mb-6">Login</h3>
+      
+      <form class="space-y-6">
+        <!-- Email Input -->
+        <div>
+          <label class="block text-sm font-medium text-white">Email</label>
+          <input
+            type="email"
+            placeholder="Enter your email"
+            class="w-full border border-white/30 rounded-lg px-4 py-2 bg-white/20 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-transparent"
+          />
+        </div>
+
+        <!-- Password Input -->
+        <div>
+          <label class="block text-sm font-medium text-white">Password</label>
+          <input
+            type="password"
+            placeholder="Enter your password"
+            class="w-full border border-white/30 rounded-lg px-4 py-2 bg-white/20 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-transparent"
+          />
+        </div>
+
+        <!-- Forgot Password Link -->
+        <div class="text-right">
+          <a href="#" class="text-sm text-white hover:text-violet-300 transition-colors">Forgot Password?</a>
+        </div>
+
+        <!-- Submit Button -->
+        <button
+          type="submit"
+          class="w-full bg-violet-500 text-white px-4 py-2 rounded-lg hover:bg-violet-600 transition-colors"
+        >
+          Login
+        </button>
+
+        <!-- Sign Up Section -->
+        <div class="text-center text-white">
+          <p class="text-sm">Don't have an account? <a href="#" class="text-violet-300 hover:text-violet-400 transition-colors">Sign Up</a></p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
